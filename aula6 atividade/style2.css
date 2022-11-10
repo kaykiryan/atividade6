@@ -1,0 +1,13 @@
+body{
+ background-color: beige;
+}
+#topo{
+    background-color: darkcyan;
+}
+#conquista{
+    background-color: darkcyan;
+}
+#campeao{
+    width: 600px;
+    height: 300px;
+}

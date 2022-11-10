@@ -1,0 +1,92 @@
+header{
+    background-image:url("grama.jpg") ;
+    text-align: center;
+    color: black;
+    font-size: small;
+}
+
+
+#texto1{
+    font-size: small;
+    text-align: center;
+   color:black;
+   
+    
+}
+
+body{
+    background-color:#dcdcdc;
+    margin: 13px;    
+}
+
+#cruzeiro{
+   width: 300px;
+   
+   height: 180px;    
+}
+
+#gremio{
+  
+  padding-left:700px;
+    
+}
+#inicio{
+    color:black;
+}
+#explicaçao{
+    width: 500px;
+}
+
+#trofeu{
+    width: 600px;
+    height: 300px;
+}
+#rodapé{
+    background-image: url(grama.jpg);
+}
+
+
+ul{
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    background-image:url(grama.jpg);
+}
+
+    a:hover{
+        animation-duration: 4s;
+        animation-iteration-count: infinite;
+        animation-name: cores;
+    }
+    
+    @keyframes cores{
+        0%{background-color: #dcdcdc;}
+        25%{background-color: blue;}
+        50%{background-color: gold;}
+        75%{background-color: black;}
+        100%{background-color: #dcdcdc;}
+    }
+
+ a{
+        color:black;
+    }
+a:visited{
+    color: red;
+}
+#topo:hover{
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-name: topo;
+}
+
+@keyframes topo{
+    0%{background-color: #dcdcdc;}
+    25%{background-color: blue;}
+    50%{background-color: gold;}
+    75%{background-color: black;}
+    100%{background-color: #dcdcdc;}
+
+}
+
+
